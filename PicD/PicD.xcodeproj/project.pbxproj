@@ -13,6 +13,7 @@
 		1FBAA32520118EAD001C0CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBAA32420118EAD001C0CAA /* Assets.xcassets */; };
 		1FBAA32820118EAD001C0CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBAA32620118EAD001C0CAA /* LaunchScreen.storyboard */; };
 		1FBAA32B20118EAD001C0CAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAA32A20118EAD001C0CAA /* main.m */; };
+		DBF0EAD62295493E00A588CB /* CSXImageCompressTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0EAD52295493E00A588CB /* CSXImageCompressTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1FBAA32720118EAD001C0CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FBAA32920118EAD001C0CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FBAA32A20118EAD001C0CAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBF0EAD42295493E00A588CB /* CSXImageCompressTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSXImageCompressTool.h; sourceTree = "<group>"; };
+		DBF0EAD52295493E00A588CB /* CSXImageCompressTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSXImageCompressTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				1FBAA31C20118EAD001C0CAA /* AppDelegate.m */,
 				1FBAA31E20118EAD001C0CAA /* ViewController.h */,
 				1FBAA31F20118EAD001C0CAA /* ViewController.m */,
+				DBF0EAD42295493E00A588CB /* CSXImageCompressTool.h */,
+				DBF0EAD52295493E00A588CB /* CSXImageCompressTool.m */,
 				1FBAA32120118EAD001C0CAA /* Main.storyboard */,
 				1FBAA32420118EAD001C0CAA /* Assets.xcassets */,
 				1FBAA32620118EAD001C0CAA /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF0EAD62295493E00A588CB /* CSXImageCompressTool.m in Sources */,
 				1FBAA32020118EAD001C0CAA /* ViewController.m in Sources */,
 				1FBAA32B20118EAD001C0CAA /* main.m in Sources */,
 				1FBAA31D20118EAD001C0CAA /* AppDelegate.m in Sources */,
