@@ -73,11 +73,8 @@
             block(imageData);
             return;
         }
-        //获取原图片宽高比
-        CGFloat sourceImageAspectRatio = orignalImage.size.width/orignalImage.size.height;
-        //先调整分辨率
-        CGSize defaultSize = CGSizeMake(1024, 1024/sourceImageAspectRatio);
-        UIImage *newImage = [self createImageForData:imageData maxPixelSize:MAX((NSUInteger)defaultSize.width, (NSUInteger)defaultSize.height)];
+        //这里二分之前重绘一下，就能解决掉内存的不足导致的问题。
+        UIImage *newImage = [self createImageForData:imageData maxPixelSize:MAX((NSUInteger)orignalImage.size.width, (NSUInteger)orignalImage.size.height)];
         [self halfFuntionImage:newImage maxSizeByte:fImageBytes back:^(NSData *halfImageData, CGFloat compress) {
             //再一步绘制压缩处理
             UIImage *resultImage = [UIImage imageWithData:halfImageData];
